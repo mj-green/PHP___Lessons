@@ -1,0 +1,18 @@
+<html>
+<body>
+
+<p id="demo"></p>
+
+<input id="textField"></input>
+<button id="dataField" onclick="transferData(document.getElementById('textField').value)">Transfer1</button>
+<input id="textField2"></input>
+<button id="dataField2" onclick="transferData(document.getElementById('textField2').value)">Transfer2</button>
+
+<script>
+function transferData(value) {
+	document.getElementById("demo").innerHTML = value;
+}
+</script>
+
+</body>
+</html>
